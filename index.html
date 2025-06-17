@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUC Central Library</title>
+    <meta name="description" content="Mobile library app for PUC Central Library">
+    <meta name="keywords" content="library, PUC, books, catalog, central library">
+    <meta property="og:title" content="PUC Central Library App">
+    <meta property="og:description" content="Access your PUC Central Library account">
+    <meta name="twitter:title" content="PUC Central Library App">
+    <meta name="twitter:description" content="Access your PUC Central Library account">
+    
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/lucide@0.513.0/lucide.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel" src="components/LoginForm.js"></script>
+    <script type="text/babel" src="components/AccountDetails.js"></script>
+    <script type="text/babel" src="components/BookCard.js"></script>
+    <script type="text/babel" src="components/SearchCatalog.js"></script>
+    <script type="text/babel" src="utils/kohaApi.js"></script>
+    <script type="text/babel" src="utils/storage.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
